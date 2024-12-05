@@ -566,10 +566,10 @@ div.fg{
 }
 .box12{
   background-color: wheat;
-  width:500px;
+  width:400px;
   height: 400px;
   margin-top: 100px;
-  margin-left: 70px;
+  /* margin-left: 70px; */
   display: grid; 
   place-content: center; 
   color: white;
@@ -611,8 +611,8 @@ div.fg{
 }
 
 
-.box13{
-  background-color: wheat;
+/* .box13{ */
+  /* background-color: wheat;
   width:500px;
   height: 400px;
   margin-top: 100px;
@@ -638,9 +638,9 @@ div.fg{
     
     var(--main-bg) padding-box,
     /* // border-box extends this background to the border space */
-    var(--gradient-border) border-box, 
+    /* var(--gradient-border) border-box,  */
     /* // Duplicate main background to fill in behind the gradient border. You can remove this if you want the border to extend "outside" the box background. */
-    var(--main-bg) border-box; 
+    /* var(--main-bg) border-box; 
   
   background-position: center center;
 
@@ -653,20 +653,20 @@ div.fg{
 
   &:hover {
     animation-play-state: paused;
-  }
-}
+  } */
+/* }  */
  
 
 
 .box14{
  
-  width:550px;
+  width:600px;
   height: 500px;
-  margin-top: 100px;
- margin-left: 200px; 
+  /* margin-top: 100px;
+ margin-left: 200px;  */
  
-  display: grid; 
-  place-content: center; 
+  /* display: grid;  */
+  /* place-content: center;  */
   color: white;
   text-shadow: 0 1px 0 #000;
   
@@ -691,7 +691,7 @@ div.fg{
     /* // Duplicate main background to fill in behind the gradient border. You can remove this if you want the border to extend "outside" the box background. */
     var(--main-bg) border-box; 
   
-  background-position: center center;
+  /* background-position: center center; */
 
   animation: bg-spin 3s linear infinite;
   @keyframes bg-spin {
@@ -715,9 +715,9 @@ div.fg{
 
 
 
-.container7{
+/* .container7{
   padding-top: 100px;
-}
+} */
 .container7 h3{
   color:#57017b
 }
@@ -729,7 +729,7 @@ div.fg{
  
 /* <..../////test.....///> */
 .param p{
-  padding-top:130px;  
+ /* padding-top:130px;    */
  justify-content: center;
 color:rgb(10, 10, 89);
 font-size: 25px;

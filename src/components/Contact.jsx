@@ -30,22 +30,22 @@ const Contact = () => {
               
                  
     <div className="social-icons" >
-    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-      <FaFacebook size={40} class="iconfacebook" />
-    </a>
-    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-      <FaTwitter size={40} class="icontwitter" />
-    </a>
-    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-      <FaInstagram size={40} class="iconinstagram" />
-    </a> 
-    <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-      <FaLinkedin size={40} class="iconlinkedin" />
-    </a>
-    </div>
-    </div>
-    </div>
-    </div>
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                    <FaFacebook size={40} class="iconfacebook" />
+                  </a>
+                  <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                    <FaTwitter size={40} class="icontwitter" />
+                  </a>
+                  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram size={40} class="iconinstagram" />
+                  </a> 
+                  <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin size={40} class="iconlinkedin" />
+                  </a>
+                  </div>
+            </div>
+      </div>
+</div>
     <br/><br/><br/>
     <div class="col-lg-8">
           <div class="card10" >
@@ -59,7 +59,7 @@ const Contact = () => {
                         <input type="text" class="email" placeholder="Enter Email" name="email" required/>
 
                         <label for="phone"></label>
-                         <input type="tel" class="mobile" placeholder="Mobile no" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+                         <input type="number" class="mobile" placeholder="Mobile no" name="phone" required/>
                         <label for="psw-repeat"></label>
                         <input type="text"  class="message" placeholder="Message" name="message" required/>
                           
@@ -98,7 +98,7 @@ const Contact = () => {
   
 
   
-</div>
+   </div>
 </div>
 
 )

@@ -4,14 +4,18 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div class="param">
-      <br /><br /><br/>  <br /><br /><br/>
-                    <h1 >testimonials</h1>
+  
+    <div class="container-fluid">
+          <div class="param">
+          <br /> <br /><br/>  <br />
+
+
+                    <h1 >Testimonials</h1>
                    <br /> <br /><br/>  <br /><br /><br/>
 
                    
     <div class="row">
-        <div class="col-lg-2"></div> 
+         <div class="col-lg-2"></div>  
           <div class="col-lg-8">
             <div class="card3">
                               <p ><span>-----AKHIRA S R </span>is an exceptional full stack developer with a keen of 
@@ -19,7 +23,7 @@ const Testimonials = () => {
                               She consistently delivers high -quality ,responsive designs that enhance user 
                               experiance.Her ability to solve problems and work efficiently under tight deadlines 
                               make her a  valuable to any project.</p>
-              </div>
+     </div>
               <br /><br /><br/>
 
 
@@ -68,8 +72,9 @@ const Testimonials = () => {
 
       <div class="col-lg-2"> </div>
    
-    </div>
+            </div>
           </div>
+    </div>
 </div>
    
   )
